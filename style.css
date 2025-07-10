@@ -11,9 +11,6 @@ nav{
     background-image: url(Assets/Hero-bg.png);
     margin: 0 auto;
 }
-nav img{
-    width: 100%;
-}
 .nav-logo{
     color: #4E47FF;
     font-weight: 900;
@@ -61,4 +58,87 @@ nav img{
     width: 132px;
     height: 48px;
     border-radius: 5px;
+}
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    width: 1260px;
+    margin: 60px 145px 90px 145px;
+    border-radius: 12px;
+}
+.info-text {
+    flex: 1;
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.info-text h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #0D1321;
+}
+.info-text p {
+    font-size: 1rem;
+    color: #373A50;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+.info-image {
+    flex: 1;
+    text-align: right;
+}
+.info-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+.btn-launch-live{
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    border: none;
+    background-color: #4E47FF;
+    font-size: 16px;
+    cursor: pointer;
+    gap: 16px;
+    width: 229px;
+    height: 48px;
+    border-radius: 5px;
+}
+.user{
+    text-align: center;
+}
+.users{
+    background-color: #E6EDF9;
+    margin: 90px 145px;
+    padding: 50px 145px;
+    border-radius: 10px;
+}
+.users h3{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.user-grid{
+    display: flex;
+    justify-content: space-around;
+    gap: 158px;
+    flex-wrap: wrap;
+}
+.number{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item-title{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    line-height: 1.2;
+}
+.item-description{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
 }
