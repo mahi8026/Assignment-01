@@ -35,6 +35,9 @@ nav{
     margin: 0 150px;
     padding: 50px;
 }
+.ui-tamplate{
+    margin-left: 150px;
+}
 
 .section-title{
     color: #252432;
@@ -65,7 +68,7 @@ nav{
     display: flex;
     justify-content: space-between;
     width: 1260px;
-    margin: 60px 145px 90px 145px;
+    margin: 60px 145px 90px 200px;
     border-radius: 12px;
 }
 .info-text {
@@ -217,4 +220,41 @@ nav{
     height: 48px;
     border-radius: 5px;
     margin-bottom: 20px;
+}
+.contact{
+    display: flex;
+    padding: 71px;
+    gap: 200px;
+    margin-left: 150px;
+}
+.your-form input[type="text"], [type="email"], textarea {
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 490px;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    gap: 20px;
+}
+
+.communicate{
+    font-size: 97px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.btn-5{
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    border: none;
+    background-color: #4E47FF;
+    font-size: 20px;
+    cursor: pointer;
+    gap: 16px;
+    width: 490px;
+    height: 62px;
+    border-radius: 10px;
+    padding: 25px 150px;
 }
