@@ -88,7 +88,7 @@ nav{
 }
 .info-image {
     flex: 1;
-    text-align: right;
+    text-align:right;
 }
 .info-image img {
     max-width: 100%;
@@ -175,4 +175,46 @@ nav{
     font-size: 18px;
     margin-bottom: 15px;
     letter-spacing: 3px;
+}
+.wc-big-container{
+    background-color: white;
+    width: 1140px;
+    height: 697px;
+    padding: 71px 150px;
+    margin: 5px 150px;
+    text-align: center;
+    margin-left: 160px;
+    
+}
+.wc-big-container img{
+    width: 840px;
+    height: 365px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    border-radius: 48px;
+    margin-bottom: 71px;
+}
+.wc-big-container h1 {
+    margin: 71px 312px 20px 312px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.wc-big-container p {
+    margin: 20px 326.5px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.btn-4{
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    border: none;
+    background-color: #4E47FF;
+    font-size: 16px;
+    cursor: pointer;
+    gap: 16px;
+    width: 229px;
+    height: 48px;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
